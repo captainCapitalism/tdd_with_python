@@ -32,7 +32,7 @@ else:
     DEBUG = True
     SECRET_KEY = 'insecure-key-for-dev'
     ALLOWED_HOSTS = []
-
+    print('insecurity warning')
 
 # Application definition
 
